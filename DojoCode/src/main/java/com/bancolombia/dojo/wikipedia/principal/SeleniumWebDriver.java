@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumWebDriver {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","/Users/javb721945/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","C:\\Pits\\COTI Session 1\\IntruduccionAutomatizacion\\DojoCode\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.wikipedia.org");
         //driver.findElement(By.id("js-link-box-es")).click();
